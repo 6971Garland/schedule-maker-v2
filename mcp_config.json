@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "schedule-maker": {
+      "command": "python",
+      "args": ["start.py"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
